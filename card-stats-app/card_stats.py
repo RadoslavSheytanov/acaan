@@ -126,7 +126,7 @@ elif st.session_state.page == "results":
 
     # Display Fake Results
     st.success(f"Statistical analysis complete.")
-    st.info(f"Estimated probability of **{formatted_card}** appearing at position **#{selected_position}** is **1 in {combined_probability}** based on a sample size of {sample_size}.")
+    st.info(f"Estimated probability of **{formatted_card}** appearing at position **#{selected_position}** is **1 in {combined_probability}**.")
 
     # --- Generate a More Realistic Probability Distribution ---
     x_positions = np.arange(1, 53)  # 1-52 deck positions
